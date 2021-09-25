@@ -6,7 +6,6 @@ use pocketmine\command\Command;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerCommandPreprocessEvent;
 use pocketmine\plugin\PluginBase;
-use pocketmine\scheduler\ClosureTask;
 use pocketmine\utils\TextFormat;
 
 class Loader extends PluginBase implements Listener {
@@ -17,9 +16,6 @@ class Loader extends PluginBase implements Listener {
     public function onEnable(): void{
         // setting its priority to be high by delaying initialization
         $this->saveDefaultConfig();
-        $this->getScheduler()->scheduleRepeatingTask(new ClosureTask(function (): void{
-            $this->commands = $this->getServer()->getCommandMap()->getCommands();
-        }), 30);
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
@@ -30,7 +26,7 @@ class Loader extends PluginBase implements Listener {
         $exp = str_split($message);
         if($exp[0] === "/" || $exp[0] === "./") {
             array_shift($exp);
-            foreach ($this->commands as $command) {
+            foreach ($this->getServer()->getCommandMap()->getCommands() as $command) {
                 if (strtolower($command->getName()) === implode("", $exp)) {
                     $bool = true;
                 }
