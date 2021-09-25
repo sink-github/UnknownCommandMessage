@@ -6,7 +6,7 @@
 ## What does this do?
 > When a player runs a command, it should send them this typical message:
 
-![Screenshot]https://cdn.discordapp.com/attachments/375005361154949120/891306297776042034/unknown.png<img>
+<img src="https://cdn.discordapp.com/attachments/375005361154949120/891306297776042034/unknown.png">
 
 ## Usage
 > It's actually pretty simple. All you need is to pull up the ``config.yml`` file like so, it should look something like this:
