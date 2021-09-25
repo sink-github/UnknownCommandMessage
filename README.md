@@ -1,7 +1,7 @@
 # UnknownCommandMessage
 
 **UnknownCommandMessage is a plugin made on API 4.0.0 for MCPE.**
-> This was tested on API 4.0.0-BETA3 and MCPE 1.17.30! Note, warranty is not promised. 
+> This was tested on API 3.23.1 and MCPE 1.17.30! Note, warranty is not promised. 
 
 ## What does this do?
 > When a player runs a command, it should send them this typical message:
