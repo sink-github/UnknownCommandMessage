@@ -1,0 +1,3 @@
+messages:
+# Use {cmd_name} for Command Name, use {player} for Player Name.
+  unknown-command: "&cThe command {cmd_name} does not exist."
