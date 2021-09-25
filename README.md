@@ -19,7 +19,7 @@ messages:
 ```
 
 ## Editing the message
-> You can set the messages to anything you want. Yes, we do use the ``&`` symbol instead of the section sign (§) 
+> You can set the messages to anything you want. Yes, you can use the ``&`` symbol instead of the section sign (§) 
 
 ## Tags
 
