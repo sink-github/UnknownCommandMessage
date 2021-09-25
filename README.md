@@ -8,6 +8,8 @@
 
 <img src="https://cdn.discordapp.com/attachments/375005361154949120/891306297776042034/unknown.png">
 
+> So to counter that, this plugin was made to change that message into anything you like.
+
 ## Usage
 > It's actually pretty simple. All you need is to pull up the ``config.yml`` file like so, it should look something like this:
 ```yaml
