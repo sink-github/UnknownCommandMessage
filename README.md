@@ -13,7 +13,7 @@
 ## Prerequisistes
 
 - PocketMine-MP Software
-- PHP 8.0+
+- PHP 8.0+ (Not sure if you can use PHP 7.4, go check)
 
 ## Usage
 > It's actually pretty simple. All you need is to pull up the ``config.yml`` file like so, it should look something like this:
