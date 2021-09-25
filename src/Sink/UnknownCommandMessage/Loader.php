@@ -17,7 +17,7 @@ class Loader extends PluginBase implements Listener {
     public function onEnable(): void{
         // setting its priority to be high by delaying initialization
         $this->saveDefaultConfig();
-        $this->getScheduler()->scheduleDelayedTask(new ClosureTask(function (): void{
+        $this->getScheduler()->scheduleRepeatingTask(new ClosureTask(function (): void{
             $this->commands = $this->getServer()->getCommandMap()->getCommands();
         }), 30);
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
