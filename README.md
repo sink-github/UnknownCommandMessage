@@ -10,6 +10,10 @@
 
 > So to counter that, this plugin was made to change that message into anything you like.
 
+## Prerequisites
+- PocketMine-MP Software
+- PHP 7.4+
+
 ## Usage
 > It's actually pretty simple. All you need is to pull up the ``config.yml`` file like so, it should look something like this:
 ```yaml
