@@ -2,7 +2,6 @@
 
 namespace Sink\UnknownCommandMessage;
 
-use pocketmine\command\Command;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerCommandPreprocessEvent;
 use pocketmine\plugin\PluginBase;
