@@ -21,7 +21,7 @@ messages:
 ## Editing the message
 > You can set the messages to anything you want. Yes, we do use the ``&`` symbol instead of the section sign (§) 
 
-# Tags
+## Tags
 
 | Tag | Translation |
 | --- | --- |
