@@ -10,7 +10,6 @@ use pocketmine\utils\TextFormat;
 class Loader extends PluginBase implements Listener {
 
     public function onEnable(): void{
-        // setting its priority to be high by delaying initialization
         $this->saveDefaultConfig();
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
