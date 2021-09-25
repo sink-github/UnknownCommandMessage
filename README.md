@@ -20,3 +20,10 @@ messages:
 
 ## Editing the message
 > You can set the messages to anything you want. Yes, we do use the ``&`` symbol instead of the section sign (§) 
+
+# Tags
+
+| Tag | Translation |
+| --- | --- |
+| {player} | The sender's (the person running the command) username |
+| {cmd_name} | The unknown command that was run by the sender |
